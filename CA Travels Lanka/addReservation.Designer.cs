@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addReservation));
             this.panel1 = new System.Windows.Forms.Panel();
             this.addResLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,12 +43,14 @@
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.resSubmitBtn = new System.Windows.Forms.Button();
             this.resResetBtn = new System.Windows.Forms.Button();
+            this.closeBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Controls.Add(this.addResLabel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -184,6 +187,18 @@
             this.resResetBtn.Text = "Reset";
             this.resResetBtn.UseVisualStyleBackColor = false;
             // 
+            // closeBtn
+            // 
+            this.closeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.closeBtn.FlatAppearance.BorderSize = 0;
+            this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
+            this.closeBtn.Location = new System.Drawing.Point(398, 10);
+            this.closeBtn.Name = "closeBtn";
+            this.closeBtn.Size = new System.Drawing.Size(40, 40);
+            this.closeBtn.TabIndex = 1;
+            this.closeBtn.UseVisualStyleBackColor = false;
+            // 
             // addReservation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -230,5 +245,6 @@
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.Button resSubmitBtn;
         private System.Windows.Forms.Button resResetBtn;
+        private System.Windows.Forms.Button closeBtn;
     }
 }
