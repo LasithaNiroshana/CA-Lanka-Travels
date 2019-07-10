@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addCustomer));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.closeBtn = new System.Windows.Forms.Button();
             this.addCusLabel = new System.Windows.Forms.Label();
             this.idLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -45,13 +46,12 @@
             this.cusAddressTxt = new System.Windows.Forms.TextBox();
             this.cusEmailTxt = new System.Windows.Forms.TextBox();
             this.cusPhoneTxt = new System.Windows.Forms.TextBox();
-            this.closeBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Controls.Add(this.addCusLabel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -60,10 +60,22 @@
             this.panel1.Size = new System.Drawing.Size(450, 58);
             this.panel1.TabIndex = 0;
             // 
+            // closeBtn
+            // 
+            this.closeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.closeBtn.FlatAppearance.BorderSize = 0;
+            this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
+            this.closeBtn.Location = new System.Drawing.Point(394, 8);
+            this.closeBtn.Name = "closeBtn";
+            this.closeBtn.Size = new System.Drawing.Size(40, 40);
+            this.closeBtn.TabIndex = 15;
+            this.closeBtn.UseVisualStyleBackColor = false;
+            // 
             // addCusLabel
             // 
             this.addCusLabel.AutoSize = true;
-            this.addCusLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.addCusLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
             this.addCusLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addCusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addCusLabel.ForeColor = System.Drawing.Color.White;
@@ -210,18 +222,6 @@
             this.cusPhoneTxt.Name = "cusPhoneTxt";
             this.cusPhoneTxt.Size = new System.Drawing.Size(199, 30);
             this.cusPhoneTxt.TabIndex = 14;
-            // 
-            // closeBtn
-            // 
-            this.closeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.closeBtn.FlatAppearance.BorderSize = 0;
-            this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
-            this.closeBtn.Location = new System.Drawing.Point(394, 8);
-            this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(40, 40);
-            this.closeBtn.TabIndex = 15;
-            this.closeBtn.UseVisualStyleBackColor = false;
             // 
             // addCustomer
             // 

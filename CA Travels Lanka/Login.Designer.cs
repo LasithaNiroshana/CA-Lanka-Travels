@@ -36,6 +36,7 @@
             this.userTxt = new System.Windows.Forms.TextBox();
             this.pwTxt = new System.Windows.Forms.TextBox();
             this.loginBtn = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,19 +55,20 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(600, 72);
+            this.panel1.Size = new System.Drawing.Size(600, 70);
             this.panel1.TabIndex = 1;
             // 
             // userLabel
             // 
             this.userLabel.AutoSize = true;
             this.userLabel.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userLabel.Location = new System.Drawing.Point(74, 185);
+            this.userLabel.Location = new System.Drawing.Point(74, 164);
             this.userLabel.Name = "userLabel";
             this.userLabel.Size = new System.Drawing.Size(146, 35);
             this.userLabel.TabIndex = 2;
@@ -85,7 +87,7 @@
             // userTxt
             // 
             this.userTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userTxt.Location = new System.Drawing.Point(242, 188);
+            this.userTxt.Location = new System.Drawing.Point(242, 169);
             this.userTxt.Name = "userTxt";
             this.userTxt.Size = new System.Drawing.Size(282, 30);
             this.userTxt.TabIndex = 4;
@@ -113,6 +115,17 @@
             this.loginBtn.UseVisualStyleBackColor = false;
             this.loginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(245, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(101, 39);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Login";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -130,6 +143,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,6 +158,7 @@
         private System.Windows.Forms.TextBox userTxt;
         private System.Windows.Forms.TextBox pwTxt;
         private System.Windows.Forms.Button loginBtn;
+        private System.Windows.Forms.Label label1;
     }
 }
 

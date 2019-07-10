@@ -49,7 +49,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Controls.Add(this.addResLabel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
