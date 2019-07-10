@@ -37,8 +37,8 @@
             this.customerBtn = new System.Windows.Forms.Button();
             this.reservationBtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.closeBtn = new System.Windows.Forms.Button();
             this.profileBtn = new System.Windows.Forms.Button();
+            this.closeBtn = new System.Windows.Forms.Button();
             this.sidePanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -162,7 +162,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
             this.panel1.Controls.Add(this.profileBtn);
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -170,6 +170,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(960, 80);
             this.panel1.TabIndex = 1;
+            // 
+            // profileBtn
+            // 
+            this.profileBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.profileBtn.FlatAppearance.BorderSize = 0;
+            this.profileBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.profileBtn.Image = ((System.Drawing.Image)(resources.GetObject("profileBtn.Image")));
+            this.profileBtn.Location = new System.Drawing.Point(810, 12);
+            this.profileBtn.Name = "profileBtn";
+            this.profileBtn.Size = new System.Drawing.Size(48, 48);
+            this.profileBtn.TabIndex = 2;
+            this.profileBtn.UseVisualStyleBackColor = false;
             // 
             // closeBtn
             // 
@@ -183,18 +195,6 @@
             this.closeBtn.TabIndex = 0;
             this.closeBtn.UseVisualStyleBackColor = false;
             this.closeBtn.Click += new System.EventHandler(this.CloseBtn_Click);
-            // 
-            // profileBtn
-            // 
-            this.profileBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.profileBtn.FlatAppearance.BorderSize = 0;
-            this.profileBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.profileBtn.Image = ((System.Drawing.Image)(resources.GetObject("profileBtn.Image")));
-            this.profileBtn.Location = new System.Drawing.Point(810, 12);
-            this.profileBtn.Name = "profileBtn";
-            this.profileBtn.Size = new System.Drawing.Size(48, 48);
-            this.profileBtn.TabIndex = 2;
-            this.profileBtn.UseVisualStyleBackColor = false;
             // 
             // Dashboard
             // 
