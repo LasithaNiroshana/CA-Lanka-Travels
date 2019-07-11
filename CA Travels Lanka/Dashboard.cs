@@ -21,5 +21,10 @@ namespace CA_Travels_Lanka
         {
             Application.Exit();
         }
+
+        private void ProfileBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
