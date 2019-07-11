@@ -34,14 +34,14 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.resSearchBtn = new System.Windows.Forms.Button();
             this.resAddBtn = new System.Windows.Forms.Button();
             this.resEditBtn = new System.Windows.Forms.Button();
             this.resDltBtn = new System.Windows.Forms.Button();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,6 +98,27 @@
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             this.Column5.Width = 125;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Status(Ongoing/Pending)";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 125;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Starting Date";
+            this.Column7.MinimumWidth = 6;
+            this.Column7.Name = "Column7";
+            this.Column7.Width = 125;
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Ending Date";
+            this.Column8.MinimumWidth = 6;
+            this.Column8.Name = "Column8";
+            this.Column8.Width = 125;
             // 
             // textBox1
             // 
@@ -160,29 +181,8 @@
             this.resDltBtn.Name = "resDltBtn";
             this.resDltBtn.Size = new System.Drawing.Size(100, 40);
             this.resDltBtn.TabIndex = 5;
-            this.resDltBtn.Text = "DELETE";
+            this.resDltBtn.Text = "CLEAR";
             this.resDltBtn.UseVisualStyleBackColor = false;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Status(Ongoing/Pending)";
-            this.Column6.MinimumWidth = 6;
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 125;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Starting Date";
-            this.Column7.MinimumWidth = 6;
-            this.Column7.Name = "Column7";
-            this.Column7.Width = 125;
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "Ending Date";
-            this.Column8.MinimumWidth = 6;
-            this.Column8.Name = "Column8";
-            this.Column8.Width = 125;
             // 
             // reservationUC
             // 
