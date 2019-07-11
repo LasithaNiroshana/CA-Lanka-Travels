@@ -49,7 +49,7 @@
             this.closeBtn.Location = new System.Drawing.Point(408, 10);
             this.closeBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(33, 36);
+            this.closeBtn.Size = new System.Drawing.Size(44, 44);
             this.closeBtn.TabIndex = 0;
             this.closeBtn.UseVisualStyleBackColor = false;
             this.closeBtn.Click += new System.EventHandler(this.CloseBtn_Click);

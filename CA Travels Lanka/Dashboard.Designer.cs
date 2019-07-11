@@ -50,7 +50,6 @@
             // sidePanel
             // 
             this.sidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.sidePanel.Controls.Add(this.pictureBox1);
             this.sidePanel.Controls.Add(this.paymentBtn);
             this.sidePanel.Controls.Add(this.homeBtn);
             this.sidePanel.Controls.Add(this.vehiclesBtn);
@@ -193,6 +192,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.profileBtn);
             this.panel1.Controls.Add(this.closeBtn);
@@ -220,12 +220,12 @@
             this.profileBtn.FlatAppearance.BorderSize = 0;
             this.profileBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.profileBtn.Image = ((System.Drawing.Image)(resources.GetObject("profileBtn.Image")));
-            this.profileBtn.Location = new System.Drawing.Point(609, 11);
-            this.profileBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.profileBtn.Location = new System.Drawing.Point(810, 12);
             this.profileBtn.Name = "profileBtn";
-            this.profileBtn.Size = new System.Drawing.Size(35, 38);
+            this.profileBtn.Size = new System.Drawing.Size(48, 48);
             this.profileBtn.TabIndex = 2;
             this.profileBtn.UseVisualStyleBackColor = false;
+            this.profileBtn.Click += new System.EventHandler(this.ProfileBtn_Click);
             // 
             // closeBtn
             // 
@@ -233,13 +233,33 @@
             this.closeBtn.FlatAppearance.BorderSize = 0;
             this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
-            this.closeBtn.Location = new System.Drawing.Point(655, 11);
-            this.closeBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.closeBtn.Location = new System.Drawing.Point(873, 13);
             this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(36, 39);
+            this.closeBtn.Size = new System.Drawing.Size(48, 48);
             this.closeBtn.TabIndex = 0;
             this.closeBtn.UseVisualStyleBackColor = false;
             this.closeBtn.Click += new System.EventHandler(this.CloseBtn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(237, 148);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(400, 80);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // Dashboard
             // 
