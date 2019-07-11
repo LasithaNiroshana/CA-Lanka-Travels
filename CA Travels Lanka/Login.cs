@@ -24,9 +24,15 @@ namespace CA_Travels_Lanka
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
+            
             Dashboard obj = new Dashboard();
             obj.Show();
             this.Hide();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

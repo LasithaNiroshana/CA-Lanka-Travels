@@ -16,5 +16,14 @@ namespace CA_Travels_Lanka
         {
             InitializeComponent();
         }
+
+      
+
+        private void ReservationUC_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        
     }
 }

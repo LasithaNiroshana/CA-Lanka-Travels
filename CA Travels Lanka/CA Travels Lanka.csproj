@@ -76,6 +76,7 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="DBUtil.cs" />
     <Compile Include="homeUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
