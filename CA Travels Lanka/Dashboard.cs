@@ -51,31 +51,37 @@ namespace CA_Travels_Lanka
         private void HomeBtn_Click(object sender, EventArgs e)
         {
             homeUC1.BringToFront();
+            titleLbl.Text = "Home";
         }
 
         private void PackagesBtn_Click(object sender, EventArgs e)
         {
             packagesUC1.BringToFront();
+            titleLbl.Text = "Packages";
         }
 
         private void ReservationBtn_Click(object sender, EventArgs e)
         {
             reservationUC1.BringToFront();
+            titleLbl.Text = "Reservation";
         }
 
         private void CustomerBtn_Click(object sender, EventArgs e)
         {
             customerUC1.BringToFront();
+            titleLbl.Text = "Customer";
         }
 
         private void VehiclesBtn_Click(object sender, EventArgs e)
         {
             vehiclesUC1.BringToFront();
+            titleLbl.Text = "Vehicles";
         }
 
         private void PaymentBtn_Click(object sender, EventArgs e)
         {
             paymentUC1.BringToFront();
+            titleLbl.Text = "Payment";
         }
     }
 }

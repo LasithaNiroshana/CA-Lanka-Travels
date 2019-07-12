@@ -45,12 +45,13 @@
             this.timeLbl = new System.Windows.Forms.Label();
             this.dateLbl = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.paymentUC1 = new CA_Travels_Lanka.paymentUC();
-            this.vehiclesUC1 = new CA_Travels_Lanka.vehiclesUC();
-            this.customerUC1 = new CA_Travels_Lanka.customerUC();
-            this.reservationUC1 = new CA_Travels_Lanka.reservationUC();
-            this.packagesUC1 = new CA_Travels_Lanka.packagesUC();
+            this.titleLbl = new System.Windows.Forms.Label();
             this.homeUC1 = new CA_Travels_Lanka.homeUC();
+            this.packagesUC1 = new CA_Travels_Lanka.packagesUC();
+            this.reservationUC1 = new CA_Travels_Lanka.reservationUC();
+            this.customerUC1 = new CA_Travels_Lanka.customerUC();
+            this.vehiclesUC1 = new CA_Travels_Lanka.vehiclesUC();
+            this.paymentUC1 = new CA_Travels_Lanka.paymentUC();
             this.sidePanel.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -191,6 +192,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
+            this.panel1.Controls.Add(this.titleLbl);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.profileBtn);
@@ -280,45 +282,16 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
-            // paymentUC1
+            // titleLbl
             // 
-            this.paymentUC1.BackColor = System.Drawing.Color.White;
-            this.paymentUC1.Location = new System.Drawing.Point(240, 80);
-            this.paymentUC1.Name = "paymentUC1";
-            this.paymentUC1.Size = new System.Drawing.Size(960, 560);
-            this.paymentUC1.TabIndex = 2;
-            // 
-            // vehiclesUC1
-            // 
-            this.vehiclesUC1.BackColor = System.Drawing.Color.White;
-            this.vehiclesUC1.Location = new System.Drawing.Point(240, 80);
-            this.vehiclesUC1.Name = "vehiclesUC1";
-            this.vehiclesUC1.Size = new System.Drawing.Size(960, 560);
-            this.vehiclesUC1.TabIndex = 3;
-            // 
-            // customerUC1
-            // 
-            this.customerUC1.BackColor = System.Drawing.Color.White;
-            this.customerUC1.Location = new System.Drawing.Point(240, 80);
-            this.customerUC1.Name = "customerUC1";
-            this.customerUC1.Size = new System.Drawing.Size(960, 560);
-            this.customerUC1.TabIndex = 4;
-            // 
-            // reservationUC1
-            // 
-            this.reservationUC1.BackColor = System.Drawing.Color.White;
-            this.reservationUC1.Location = new System.Drawing.Point(240, 78);
-            this.reservationUC1.Name = "reservationUC1";
-            this.reservationUC1.Size = new System.Drawing.Size(960, 560);
-            this.reservationUC1.TabIndex = 5;
-            // 
-            // packagesUC1
-            // 
-            this.packagesUC1.BackColor = System.Drawing.Color.White;
-            this.packagesUC1.Location = new System.Drawing.Point(240, 78);
-            this.packagesUC1.Name = "packagesUC1";
-            this.packagesUC1.Size = new System.Drawing.Size(960, 560);
-            this.packagesUC1.TabIndex = 6;
+            this.titleLbl.AutoSize = true;
+            this.titleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLbl.ForeColor = System.Drawing.Color.Firebrick;
+            this.titleLbl.Location = new System.Drawing.Point(971, 38);
+            this.titleLbl.Name = "titleLbl";
+            this.titleLbl.Size = new System.Drawing.Size(112, 39);
+            this.titleLbl.TabIndex = 4;
+            this.titleLbl.Text = "Home";
             // 
             // homeUC1
             // 
@@ -328,6 +301,46 @@
             this.homeUC1.Name = "homeUC1";
             this.homeUC1.Size = new System.Drawing.Size(960, 560);
             this.homeUC1.TabIndex = 7;
+            // 
+            // packagesUC1
+            // 
+            this.packagesUC1.BackColor = System.Drawing.Color.White;
+            this.packagesUC1.Location = new System.Drawing.Point(240, 78);
+            this.packagesUC1.Name = "packagesUC1";
+            this.packagesUC1.Size = new System.Drawing.Size(960, 560);
+            this.packagesUC1.TabIndex = 6;
+            // 
+            // reservationUC1
+            // 
+            this.reservationUC1.BackColor = System.Drawing.Color.White;
+            this.reservationUC1.Location = new System.Drawing.Point(240, 78);
+            this.reservationUC1.Name = "reservationUC1";
+            this.reservationUC1.Size = new System.Drawing.Size(960, 560);
+            this.reservationUC1.TabIndex = 5;
+            // 
+            // customerUC1
+            // 
+            this.customerUC1.BackColor = System.Drawing.Color.White;
+            this.customerUC1.Location = new System.Drawing.Point(240, 80);
+            this.customerUC1.Name = "customerUC1";
+            this.customerUC1.Size = new System.Drawing.Size(960, 560);
+            this.customerUC1.TabIndex = 4;
+            // 
+            // vehiclesUC1
+            // 
+            this.vehiclesUC1.BackColor = System.Drawing.Color.White;
+            this.vehiclesUC1.Location = new System.Drawing.Point(240, 80);
+            this.vehiclesUC1.Name = "vehiclesUC1";
+            this.vehiclesUC1.Size = new System.Drawing.Size(960, 560);
+            this.vehiclesUC1.TabIndex = 3;
+            // 
+            // paymentUC1
+            // 
+            this.paymentUC1.BackColor = System.Drawing.Color.White;
+            this.paymentUC1.Location = new System.Drawing.Point(240, 80);
+            this.paymentUC1.Name = "paymentUC1";
+            this.paymentUC1.Size = new System.Drawing.Size(960, 560);
+            this.paymentUC1.TabIndex = 2;
             // 
             // Dashboard
             // 
@@ -350,6 +363,7 @@
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.sidePanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -379,5 +393,6 @@
         private reservationUC reservationUC1;
         private packagesUC packagesUC1;
         private homeUC homeUC1;
+        private System.Windows.Forms.Label titleLbl;
     }
 }
