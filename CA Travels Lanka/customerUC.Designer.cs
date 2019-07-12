@@ -53,11 +53,11 @@
             this.Column4,
             this.Column5,
             this.Column6});
-            this.cusDGV.Location = new System.Drawing.Point(80, 116);
+            this.cusDGV.Location = new System.Drawing.Point(23, 116);
             this.cusDGV.Name = "cusDGV";
             this.cusDGV.RowHeadersWidth = 51;
             this.cusDGV.RowTemplate.Height = 24;
-            this.cusDGV.Size = new System.Drawing.Size(803, 334);
+            this.cusDGV.Size = new System.Drawing.Size(915, 334);
             this.cusDGV.TabIndex = 0;
             this.cusDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CusDGV_CellContentClick);
             // 
@@ -106,11 +106,12 @@
             // cusAddBtn
             // 
             this.cusAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.cusAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cusAddBtn.FlatAppearance.BorderSize = 0;
             this.cusAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cusAddBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cusAddBtn.ForeColor = System.Drawing.Color.White;
-            this.cusAddBtn.Location = new System.Drawing.Point(162, 483);
+            this.cusAddBtn.Location = new System.Drawing.Point(551, 483);
             this.cusAddBtn.Name = "cusAddBtn";
             this.cusAddBtn.Size = new System.Drawing.Size(100, 40);
             this.cusAddBtn.TabIndex = 1;
@@ -121,11 +122,12 @@
             // cusEditBtn
             // 
             this.cusEditBtn.BackColor = System.Drawing.Color.Olive;
+            this.cusEditBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cusEditBtn.FlatAppearance.BorderSize = 0;
             this.cusEditBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cusEditBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cusEditBtn.ForeColor = System.Drawing.Color.White;
-            this.cusEditBtn.Location = new System.Drawing.Point(416, 483);
+            this.cusEditBtn.Location = new System.Drawing.Point(669, 483);
             this.cusEditBtn.Name = "cusEditBtn";
             this.cusEditBtn.Size = new System.Drawing.Size(100, 40);
             this.cusEditBtn.TabIndex = 2;
@@ -135,19 +137,20 @@
             // cusSearchTxt
             // 
             this.cusSearchTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cusSearchTxt.Location = new System.Drawing.Point(586, 38);
+            this.cusSearchTxt.Location = new System.Drawing.Point(567, 58);
             this.cusSearchTxt.Name = "cusSearchTxt";
             this.cusSearchTxt.Size = new System.Drawing.Size(193, 30);
             this.cusSearchTxt.TabIndex = 3;
             // 
             // cusSearchBtn
             // 
-            this.cusSearchBtn.BackColor = System.Drawing.Color.Blue;
+            this.cusSearchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.cusSearchBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cusSearchBtn.FlatAppearance.BorderSize = 0;
             this.cusSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cusSearchBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cusSearchBtn.ForeColor = System.Drawing.Color.White;
-            this.cusSearchBtn.Location = new System.Drawing.Point(797, 33);
+            this.cusSearchBtn.Location = new System.Drawing.Point(785, 53);
             this.cusSearchBtn.Name = "cusSearchBtn";
             this.cusSearchBtn.Size = new System.Drawing.Size(100, 40);
             this.cusSearchBtn.TabIndex = 4;
@@ -157,15 +160,16 @@
             // cusDltBtn
             // 
             this.cusDltBtn.BackColor = System.Drawing.Color.Red;
+            this.cusDltBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cusDltBtn.FlatAppearance.BorderSize = 0;
             this.cusDltBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cusDltBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cusDltBtn.ForeColor = System.Drawing.Color.White;
-            this.cusDltBtn.Location = new System.Drawing.Point(679, 483);
+            this.cusDltBtn.Location = new System.Drawing.Point(785, 483);
             this.cusDltBtn.Name = "cusDltBtn";
             this.cusDltBtn.Size = new System.Drawing.Size(100, 40);
             this.cusDltBtn.TabIndex = 5;
-            this.cusDltBtn.Text = "DELETE";
+            this.cusDltBtn.Text = "CLEAR";
             this.cusDltBtn.UseVisualStyleBackColor = false;
             // 
             // customerUC

@@ -49,6 +49,8 @@
             this.cusPrintBtn = new System.Windows.Forms.Button();
             this.ownAddBtn = new System.Windows.Forms.Button();
             this.ownPrintBtn = new System.Windows.Forms.Button();
+            this.lblcreceipt = new System.Windows.Forms.Label();
+            this.lblrreceipt = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -66,11 +68,11 @@
             this.Column8,
             this.Column9,
             this.Column10});
-            this.dataGridView1.Location = new System.Drawing.Point(53, 81);
+            this.dataGridView1.Location = new System.Drawing.Point(25, 81);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(394, 367);
+            this.dataGridView1.Size = new System.Drawing.Size(429, 367);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -150,7 +152,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(413, 367);
+            this.dataGridView2.Size = new System.Drawing.Size(435, 367);
             this.dataGridView2.TabIndex = 1;
             // 
             // Column5
@@ -198,11 +200,12 @@
             // CusPayBtn
             // 
             this.CusPayBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.CusPayBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CusPayBtn.FlatAppearance.BorderSize = 0;
             this.CusPayBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CusPayBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CusPayBtn.ForeColor = System.Drawing.Color.White;
-            this.CusPayBtn.Location = new System.Drawing.Point(53, 479);
+            this.CusPayBtn.Location = new System.Drawing.Point(211, 479);
             this.CusPayBtn.Name = "CusPayBtn";
             this.CusPayBtn.Size = new System.Drawing.Size(100, 40);
             this.CusPayBtn.TabIndex = 2;
@@ -213,11 +216,12 @@
             // cusPrintBtn
             // 
             this.cusPrintBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.cusPrintBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cusPrintBtn.FlatAppearance.BorderSize = 0;
             this.cusPrintBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cusPrintBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cusPrintBtn.ForeColor = System.Drawing.Color.White;
-            this.cusPrintBtn.Location = new System.Drawing.Point(347, 479);
+            this.cusPrintBtn.Location = new System.Drawing.Point(328, 479);
             this.cusPrintBtn.Name = "cusPrintBtn";
             this.cusPrintBtn.Size = new System.Drawing.Size(100, 40);
             this.cusPrintBtn.TabIndex = 4;
@@ -227,11 +231,12 @@
             // ownAddBtn
             // 
             this.ownAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ownAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ownAddBtn.FlatAppearance.BorderSize = 0;
             this.ownAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ownAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ownAddBtn.ForeColor = System.Drawing.Color.White;
-            this.ownAddBtn.Location = new System.Drawing.Point(499, 479);
+            this.ownAddBtn.Location = new System.Drawing.Point(694, 479);
             this.ownAddBtn.Name = "ownAddBtn";
             this.ownAddBtn.Size = new System.Drawing.Size(100, 40);
             this.ownAddBtn.TabIndex = 5;
@@ -242,6 +247,7 @@
             // ownPrintBtn
             // 
             this.ownPrintBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.ownPrintBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ownPrintBtn.FlatAppearance.BorderSize = 0;
             this.ownPrintBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ownPrintBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -253,11 +259,33 @@
             this.ownPrintBtn.Text = "PRINT";
             this.ownPrintBtn.UseVisualStyleBackColor = false;
             // 
+            // lblcreceipt
+            // 
+            this.lblcreceipt.AutoSize = true;
+            this.lblcreceipt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcreceipt.Location = new System.Drawing.Point(19, 24);
+            this.lblcreceipt.Name = "lblcreceipt";
+            this.lblcreceipt.Size = new System.Drawing.Size(241, 32);
+            this.lblcreceipt.TabIndex = 8;
+            this.lblcreceipt.Text = "Customer Receipt";
+            // 
+            // lblrreceipt
+            // 
+            this.lblrreceipt.AutoSize = true;
+            this.lblrreceipt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblrreceipt.Location = new System.Drawing.Point(493, 24);
+            this.lblrreceipt.Name = "lblrreceipt";
+            this.lblrreceipt.Size = new System.Drawing.Size(202, 32);
+            this.lblrreceipt.TabIndex = 9;
+            this.lblrreceipt.Text = "Owner Receipt";
+            // 
             // paymentUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.lblrreceipt);
+            this.Controls.Add(this.lblcreceipt);
             this.Controls.Add(this.ownPrintBtn);
             this.Controls.Add(this.ownAddBtn);
             this.Controls.Add(this.cusPrintBtn);
@@ -269,6 +297,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -295,5 +324,7 @@
         private System.Windows.Forms.Button cusPrintBtn;
         private System.Windows.Forms.Button ownAddBtn;
         private System.Windows.Forms.Button ownPrintBtn;
+        private System.Windows.Forms.Label lblcreceipt;
+        private System.Windows.Forms.Label lblrreceipt;
     }
 }

@@ -51,11 +51,11 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.vehicleDGV.Location = new System.Drawing.Point(136, 110);
+            this.vehicleDGV.Location = new System.Drawing.Point(31, 110);
             this.vehicleDGV.Name = "vehicleDGV";
             this.vehicleDGV.RowHeadersWidth = 51;
             this.vehicleDGV.RowTemplate.Height = 24;
-            this.vehicleDGV.Size = new System.Drawing.Size(677, 341);
+            this.vehicleDGV.Size = new System.Drawing.Size(895, 341);
             this.vehicleDGV.TabIndex = 0;
             // 
             // Column1
@@ -96,11 +96,12 @@
             // vehiAddBtn
             // 
             this.vehiAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.vehiAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.vehiAddBtn.FlatAppearance.BorderSize = 0;
             this.vehiAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vehiAddBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vehiAddBtn.ForeColor = System.Drawing.Color.White;
-            this.vehiAddBtn.Location = new System.Drawing.Point(178, 480);
+            this.vehiAddBtn.Location = new System.Drawing.Point(541, 480);
             this.vehiAddBtn.Name = "vehiAddBtn";
             this.vehiAddBtn.Size = new System.Drawing.Size(100, 40);
             this.vehiAddBtn.TabIndex = 1;
@@ -111,11 +112,12 @@
             // vehiEditBtn
             // 
             this.vehiEditBtn.BackColor = System.Drawing.Color.Olive;
+            this.vehiEditBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.vehiEditBtn.FlatAppearance.BorderSize = 0;
             this.vehiEditBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vehiEditBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vehiEditBtn.ForeColor = System.Drawing.Color.White;
-            this.vehiEditBtn.Location = new System.Drawing.Point(411, 480);
+            this.vehiEditBtn.Location = new System.Drawing.Point(660, 480);
             this.vehiEditBtn.Name = "vehiEditBtn";
             this.vehiEditBtn.Size = new System.Drawing.Size(100, 40);
             this.vehiEditBtn.TabIndex = 2;
@@ -125,11 +127,12 @@
             // vehiDltBtn
             // 
             this.vehiDltBtn.BackColor = System.Drawing.Color.Red;
+            this.vehiDltBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.vehiDltBtn.FlatAppearance.BorderSize = 0;
             this.vehiDltBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vehiDltBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vehiDltBtn.ForeColor = System.Drawing.Color.White;
-            this.vehiDltBtn.Location = new System.Drawing.Point(660, 480);
+            this.vehiDltBtn.Location = new System.Drawing.Point(783, 480);
             this.vehiDltBtn.Name = "vehiDltBtn";
             this.vehiDltBtn.Size = new System.Drawing.Size(100, 40);
             this.vehiDltBtn.TabIndex = 3;
@@ -138,11 +141,12 @@
             // 
             // vehiSearchBtn
             // 
-            this.vehiSearchBtn.BackColor = System.Drawing.Color.Blue;
+            this.vehiSearchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.vehiSearchBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.vehiSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vehiSearchBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vehiSearchBtn.ForeColor = System.Drawing.Color.White;
-            this.vehiSearchBtn.Location = new System.Drawing.Point(800, 40);
+            this.vehiSearchBtn.Location = new System.Drawing.Point(783, 40);
             this.vehiSearchBtn.Name = "vehiSearchBtn";
             this.vehiSearchBtn.Size = new System.Drawing.Size(100, 40);
             this.vehiSearchBtn.TabIndex = 4;
@@ -152,7 +156,7 @@
             // vehiSearchTxt
             // 
             this.vehiSearchTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vehiSearchTxt.Location = new System.Drawing.Point(593, 45);
+            this.vehiSearchTxt.Location = new System.Drawing.Point(577, 45);
             this.vehiSearchTxt.Name = "vehiSearchTxt";
             this.vehiSearchTxt.Size = new System.Drawing.Size(183, 30);
             this.vehiSearchTxt.TabIndex = 5;

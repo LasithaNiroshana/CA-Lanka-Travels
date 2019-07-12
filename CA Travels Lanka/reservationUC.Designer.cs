@@ -130,7 +130,8 @@
             // 
             // resSearchBtn
             // 
-            this.resSearchBtn.BackColor = System.Drawing.Color.Blue;
+            this.resSearchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.resSearchBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resSearchBtn.FlatAppearance.BorderSize = 0;
             this.resSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.resSearchBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -145,11 +146,12 @@
             // resAddBtn
             // 
             this.resAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.resAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resAddBtn.FlatAppearance.BorderSize = 0;
             this.resAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.resAddBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resAddBtn.ForeColor = System.Drawing.Color.White;
-            this.resAddBtn.Location = new System.Drawing.Point(198, 496);
+            this.resAddBtn.Location = new System.Drawing.Point(557, 496);
             this.resAddBtn.Name = "resAddBtn";
             this.resAddBtn.Size = new System.Drawing.Size(100, 40);
             this.resAddBtn.TabIndex = 3;
@@ -160,11 +162,12 @@
             // resEditBtn
             // 
             this.resEditBtn.BackColor = System.Drawing.Color.Olive;
+            this.resEditBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resEditBtn.FlatAppearance.BorderSize = 0;
             this.resEditBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.resEditBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resEditBtn.ForeColor = System.Drawing.Color.White;
-            this.resEditBtn.Location = new System.Drawing.Point(407, 496);
+            this.resEditBtn.Location = new System.Drawing.Point(675, 496);
             this.resEditBtn.Name = "resEditBtn";
             this.resEditBtn.Size = new System.Drawing.Size(100, 40);
             this.resEditBtn.TabIndex = 4;
@@ -174,11 +177,12 @@
             // resDltBtn
             // 
             this.resDltBtn.BackColor = System.Drawing.Color.Red;
+            this.resDltBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resDltBtn.FlatAppearance.BorderSize = 0;
             this.resDltBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.resDltBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resDltBtn.ForeColor = System.Drawing.Color.White;
-            this.resDltBtn.Location = new System.Drawing.Point(627, 496);
+            this.resDltBtn.Location = new System.Drawing.Point(792, 496);
             this.resDltBtn.Name = "resDltBtn";
             this.resDltBtn.Size = new System.Drawing.Size(100, 40);
             this.resDltBtn.TabIndex = 5;

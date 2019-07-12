@@ -51,7 +51,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Controls.Add(this.addCusLabel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -62,13 +62,15 @@
             // 
             // closeBtn
             // 
-            this.closeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.closeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.closeBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("closeBtn.BackgroundImage")));
+            this.closeBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.closeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.closeBtn.FlatAppearance.BorderSize = 0;
-            this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
-            this.closeBtn.Location = new System.Drawing.Point(394, 8);
+            this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.closeBtn.Location = new System.Drawing.Point(404, 9);
             this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(40, 40);
+            this.closeBtn.Size = new System.Drawing.Size(34, 35);
             this.closeBtn.TabIndex = 15;
             this.closeBtn.UseVisualStyleBackColor = false;
             this.closeBtn.Click += new System.EventHandler(this.CloseBtn_Click);
@@ -76,7 +78,7 @@
             // addCusLabel
             // 
             this.addCusLabel.AutoSize = true;
-            this.addCusLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
+            this.addCusLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.addCusLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addCusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addCusLabel.ForeColor = System.Drawing.Color.White;
@@ -92,9 +94,9 @@
             this.idLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.idLabel.Location = new System.Drawing.Point(65, 94);
             this.idLabel.Name = "idLabel";
-            this.idLabel.Size = new System.Drawing.Size(37, 25);
+            this.idLabel.Size = new System.Drawing.Size(112, 25);
             this.idLabel.TabIndex = 1;
-            this.idLabel.Text = "ID:";
+            this.idLabel.Text = "ID               :";
             // 
             // label1
             // 
@@ -102,9 +104,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(65, 151);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 25);
+            this.label1.Size = new System.Drawing.Size(110, 25);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Name:";
+            this.label1.Text = "Name        :";
             // 
             // label2
             // 
@@ -112,9 +114,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(65, 238);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 25);
+            this.label2.Size = new System.Drawing.Size(107, 25);
             this.label2.TabIndex = 3;
-            this.label2.Text = "NIC:";
+            this.label2.Text = "NIC           :";
             // 
             // label3
             // 
@@ -122,9 +124,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(65, 289);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 25);
+            this.label3.Size = new System.Drawing.Size(106, 25);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Address:";
+            this.label3.Text = "Address   :";
             // 
             // label4
             // 
@@ -132,9 +134,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(65, 398);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 25);
+            this.label4.Size = new System.Drawing.Size(106, 25);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Email:";
+            this.label4.Text = "Email        :";
             // 
             // label5
             // 
@@ -148,7 +150,8 @@
             // 
             // submitBtn
             // 
-            this.submitBtn.BackColor = System.Drawing.Color.Blue;
+            this.submitBtn.BackColor = System.Drawing.Color.SteelBlue;
+            this.submitBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.submitBtn.FlatAppearance.BorderSize = 0;
             this.submitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submitBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -163,6 +166,7 @@
             // resetBtn
             // 
             this.resetBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.resetBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resetBtn.FlatAppearance.BorderSize = 0;
             this.resetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.resetBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

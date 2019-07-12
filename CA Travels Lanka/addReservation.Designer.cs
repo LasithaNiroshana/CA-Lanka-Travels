@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addReservation));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.closeBtn = new System.Windows.Forms.Button();
             this.addResLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,20 +44,34 @@
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.resSubmitBtn = new System.Windows.Forms.Button();
             this.resResetBtn = new System.Windows.Forms.Button();
-            this.closeBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Controls.Add(this.addResLabel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(450, 58);
+            this.panel1.Size = new System.Drawing.Size(499, 58);
             this.panel1.TabIndex = 0;
+            // 
+            // closeBtn
+            // 
+            this.closeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.closeBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("closeBtn.BackgroundImage")));
+            this.closeBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.closeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.closeBtn.FlatAppearance.BorderSize = 0;
+            this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.closeBtn.Location = new System.Drawing.Point(452, 9);
+            this.closeBtn.Name = "closeBtn";
+            this.closeBtn.Size = new System.Drawing.Size(34, 35);
+            this.closeBtn.TabIndex = 1;
+            this.closeBtn.UseVisualStyleBackColor = false;
+            this.closeBtn.Click += new System.EventHandler(this.CloseBtn_Click);
             // 
             // addResLabel
             // 
@@ -76,9 +91,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(54, 87);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 25);
+            this.label1.Size = new System.Drawing.Size(155, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Reservation ID:";
+            this.label1.Text = "Reservation ID  :";
             // 
             // label2
             // 
@@ -86,9 +101,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(54, 147);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 25);
+            this.label2.Size = new System.Drawing.Size(157, 25);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Customer ID:";
+            this.label2.Text = "Customer ID      :";
             // 
             // label3
             // 
@@ -96,9 +111,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(54, 207);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 25);
+            this.label3.Size = new System.Drawing.Size(155, 25);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Package:";
+            this.label3.Text = "Package            :";
             // 
             // label4
             // 
@@ -106,9 +121,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(54, 328);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 25);
+            this.label4.Size = new System.Drawing.Size(79, 25);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Date:";
+            this.label4.Text = "Date    :";
             // 
             // label5
             // 
@@ -116,14 +131,14 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(54, 269);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 25);
+            this.label5.Size = new System.Drawing.Size(153, 25);
             this.label5.TabIndex = 5;
-            this.label5.Text = "Vehicle No.:";
+            this.label5.Text = "Vehicle No.       :";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(250, 87);
+            this.textBox1.Location = new System.Drawing.Point(286, 87);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(182, 30);
             this.textBox1.TabIndex = 6;
@@ -131,7 +146,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(250, 147);
+            this.textBox2.Location = new System.Drawing.Point(286, 147);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(182, 30);
             this.textBox2.TabIndex = 7;
@@ -139,7 +154,7 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(250, 269);
+            this.textBox3.Location = new System.Drawing.Point(286, 269);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(182, 30);
             this.textBox3.TabIndex = 8;
@@ -148,7 +163,7 @@
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(250, 207);
+            this.comboBox1.Location = new System.Drawing.Point(286, 207);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(182, 33);
             this.comboBox1.TabIndex = 9;
@@ -161,7 +176,8 @@
             // 
             // resSubmitBtn
             // 
-            this.resSubmitBtn.BackColor = System.Drawing.Color.Blue;
+            this.resSubmitBtn.BackColor = System.Drawing.Color.SteelBlue;
+            this.resSubmitBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resSubmitBtn.FlatAppearance.BorderSize = 0;
             this.resSubmitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.resSubmitBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -176,6 +192,7 @@
             // resResetBtn
             // 
             this.resResetBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.resResetBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resResetBtn.FlatAppearance.BorderSize = 0;
             this.resResetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.resResetBtn.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -187,25 +204,12 @@
             this.resResetBtn.Text = "Reset";
             this.resResetBtn.UseVisualStyleBackColor = false;
             // 
-            // closeBtn
-            // 
-            this.closeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.closeBtn.FlatAppearance.BorderSize = 0;
-            this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
-            this.closeBtn.Location = new System.Drawing.Point(398, 10);
-            this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(40, 40);
-            this.closeBtn.TabIndex = 1;
-            this.closeBtn.UseVisualStyleBackColor = false;
-            this.closeBtn.Click += new System.EventHandler(this.CloseBtn_Click);
-            // 
             // addReservation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(450, 600);
+            this.ClientSize = new System.Drawing.Size(499, 600);
             this.Controls.Add(this.resResetBtn);
             this.Controls.Add(this.resSubmitBtn);
             this.Controls.Add(this.monthCalendar1);
