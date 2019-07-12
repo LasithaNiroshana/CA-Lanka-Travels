@@ -208,6 +208,7 @@
             this.CusPayBtn.TabIndex = 2;
             this.CusPayBtn.Text = "ADD";
             this.CusPayBtn.UseVisualStyleBackColor = false;
+            this.CusPayBtn.Click += new System.EventHandler(this.CusPayBtn_Click);
             // 
             // cusPrintBtn
             // 
@@ -236,6 +237,7 @@
             this.ownAddBtn.TabIndex = 5;
             this.ownAddBtn.Text = "ADD";
             this.ownAddBtn.UseVisualStyleBackColor = false;
+            this.ownAddBtn.Click += new System.EventHandler(this.OwnAddBtn_Click);
             // 
             // ownPrintBtn
             // 

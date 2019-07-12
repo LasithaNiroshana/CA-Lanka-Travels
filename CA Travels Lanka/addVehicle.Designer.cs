@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addVehicle));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.closeBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,13 +46,12 @@
             this.nonacRBtn = new System.Windows.Forms.RadioButton();
             this.vehicleSubmitBtn = new System.Windows.Forms.Button();
             this.vehiResetBtn = new System.Windows.Forms.Button();
-            this.closeBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -60,10 +60,22 @@
             this.panel1.Size = new System.Drawing.Size(450, 58);
             this.panel1.TabIndex = 0;
             // 
+            // closeBtn
+            // 
+            this.closeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.closeBtn.FlatAppearance.BorderSize = 0;
+            this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
+            this.closeBtn.Location = new System.Drawing.Point(398, 9);
+            this.closeBtn.Name = "closeBtn";
+            this.closeBtn.Size = new System.Drawing.Size(40, 40);
+            this.closeBtn.TabIndex = 15;
+            this.closeBtn.UseVisualStyleBackColor = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(121, 9);
@@ -225,18 +237,6 @@
             this.vehiResetBtn.TabIndex = 14;
             this.vehiResetBtn.Text = "Reset";
             this.vehiResetBtn.UseVisualStyleBackColor = false;
-            // 
-            // closeBtn
-            // 
-            this.closeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.closeBtn.FlatAppearance.BorderSize = 0;
-            this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
-            this.closeBtn.Location = new System.Drawing.Point(398, 9);
-            this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(40, 40);
-            this.closeBtn.TabIndex = 15;
-            this.closeBtn.UseVisualStyleBackColor = false;
             // 
             // addVehicle
             // 

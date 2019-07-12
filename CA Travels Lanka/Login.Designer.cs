@@ -44,6 +44,7 @@
             // 
             this.closeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
             this.closeBtn.FlatAppearance.BorderSize = 0;
+            this.closeBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Crimson;
             this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
             this.closeBtn.Location = new System.Drawing.Point(544, 12);
@@ -55,7 +56,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(200)))), ((int)(((byte)(233)))));
+            this.panel1.BackColor = System.Drawing.Color.Blue;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -104,6 +105,7 @@
             // loginBtn
             // 
             this.loginBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.loginBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
             this.loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginBtn.ForeColor = System.Drawing.Color.White;

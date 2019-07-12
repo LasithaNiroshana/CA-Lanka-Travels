@@ -155,6 +155,7 @@
             this.resAddBtn.TabIndex = 3;
             this.resAddBtn.Text = "ADD";
             this.resAddBtn.UseVisualStyleBackColor = false;
+            this.resAddBtn.Click += new System.EventHandler(this.ResAddBtn_Click);
             // 
             // resEditBtn
             // 

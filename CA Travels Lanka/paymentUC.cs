@@ -16,5 +16,17 @@ namespace CA_Travels_Lanka
         {
             InitializeComponent();
         }
+
+        private void CusPayBtn_Click(object sender, EventArgs e)
+        {
+            addCusPayment acp = new addCusPayment();
+            acp.ShowDialog();
+        }
+
+        private void OwnAddBtn_Click(object sender, EventArgs e)
+        {
+            addOwnerPayment aow = new addOwnerPayment();
+            aow.ShowDialog();
+        }
     }
 }

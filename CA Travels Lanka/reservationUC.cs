@@ -16,5 +16,11 @@ namespace CA_Travels_Lanka
         {
             InitializeComponent();
         }
+
+        private void ResAddBtn_Click(object sender, EventArgs e)
+        {
+            addReservation ar = new addReservation();
+            ar.ShowDialog();
+        }
     }
 }

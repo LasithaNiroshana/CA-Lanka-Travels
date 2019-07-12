@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addCusPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addCusPayment.Designer.cs">
+      <DependentUpon>addCusPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="addCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="addCustomer.Designer.cs">
       <DependentUpon>addCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addOwnerPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addOwnerPayment.Designer.cs">
+      <DependentUpon>addOwnerPayment.cs</DependentUpon>
     </Compile>
     <Compile Include="addReservation.cs">
       <SubType>Form</SubType>

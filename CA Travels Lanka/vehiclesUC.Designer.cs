@@ -106,6 +106,7 @@
             this.vehiAddBtn.TabIndex = 1;
             this.vehiAddBtn.Text = "ADD";
             this.vehiAddBtn.UseVisualStyleBackColor = false;
+            this.vehiAddBtn.Click += new System.EventHandler(this.VehiAddBtn_Click);
             // 
             // vehiEditBtn
             // 
@@ -132,7 +133,7 @@
             this.vehiDltBtn.Name = "vehiDltBtn";
             this.vehiDltBtn.Size = new System.Drawing.Size(100, 40);
             this.vehiDltBtn.TabIndex = 3;
-            this.vehiDltBtn.Text = "DELETE";
+            this.vehiDltBtn.Text = "CLEAR";
             this.vehiDltBtn.UseVisualStyleBackColor = false;
             // 
             // vehiSearchBtn

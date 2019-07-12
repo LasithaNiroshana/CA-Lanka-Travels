@@ -21,5 +21,11 @@ namespace CA_Travels_Lanka
         {
 
         }
+
+        private void CusAddBtn_Click(object sender, EventArgs e)
+        {
+            addCustomer ac = new addCustomer();
+            ac.ShowDialog();
+        }
     }
 }

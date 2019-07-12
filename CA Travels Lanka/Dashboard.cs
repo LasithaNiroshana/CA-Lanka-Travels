@@ -12,6 +12,8 @@ namespace CA_Travels_Lanka
 {
     public partial class Dashboard : Form
     {
+        Timer t = new Timer();
+
         public Dashboard()
         {
             InitializeComponent();
@@ -25,6 +27,55 @@ namespace CA_Travels_Lanka
         private void ProfileBtn_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void TimeLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+            timeLbl.Text = DateTime.Now.ToLongTimeString();
+            dateLbl.Text = DateTime.Now.ToLongDateString();
+
+        }
+
+        private void Timer1_Tick(object sender, EventArgs e)
+        {
+            timeLbl.Text = DateTime.Now.ToLongTimeString();
+            timer1.Start();
+        }
+
+        private void HomeBtn_Click(object sender, EventArgs e)
+        {
+            homeUC1.BringToFront();
+        }
+
+        private void PackagesBtn_Click(object sender, EventArgs e)
+        {
+            packagesUC1.BringToFront();
+        }
+
+        private void ReservationBtn_Click(object sender, EventArgs e)
+        {
+            reservationUC1.BringToFront();
+        }
+
+        private void CustomerBtn_Click(object sender, EventArgs e)
+        {
+            customerUC1.BringToFront();
+        }
+
+        private void VehiclesBtn_Click(object sender, EventArgs e)
+        {
+            vehiclesUC1.BringToFront();
+        }
+
+        private void PaymentBtn_Click(object sender, EventArgs e)
+        {
+            paymentUC1.BringToFront();
         }
     }
 }

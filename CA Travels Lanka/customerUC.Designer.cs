@@ -116,6 +116,7 @@
             this.cusAddBtn.TabIndex = 1;
             this.cusAddBtn.Text = "ADD";
             this.cusAddBtn.UseVisualStyleBackColor = false;
+            this.cusAddBtn.Click += new System.EventHandler(this.CusAddBtn_Click);
             // 
             // cusEditBtn
             // 
