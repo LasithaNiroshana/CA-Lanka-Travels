@@ -46,10 +46,8 @@
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CusPayBtn = new System.Windows.Forms.Button();
-            this.cusPayEditBtn = new System.Windows.Forms.Button();
             this.cusPrintBtn = new System.Windows.Forms.Button();
             this.ownAddBtn = new System.Windows.Forms.Button();
-            this.ownEditBtn = new System.Windows.Forms.Button();
             this.ownPrintBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -148,11 +146,11 @@
             this.Column13,
             this.Column14,
             this.Column15});
-            this.dataGridView2.Location = new System.Drawing.Point(487, 81);
+            this.dataGridView2.Location = new System.Drawing.Point(499, 81);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(425, 367);
+            this.dataGridView2.Size = new System.Drawing.Size(413, 367);
             this.dataGridView2.TabIndex = 1;
             // 
             // Column5
@@ -211,20 +209,6 @@
             this.CusPayBtn.Text = "ADD";
             this.CusPayBtn.UseVisualStyleBackColor = false;
             // 
-            // cusPayEditBtn
-            // 
-            this.cusPayEditBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.cusPayEditBtn.FlatAppearance.BorderSize = 0;
-            this.cusPayEditBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cusPayEditBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cusPayEditBtn.ForeColor = System.Drawing.Color.White;
-            this.cusPayEditBtn.Location = new System.Drawing.Point(198, 479);
-            this.cusPayEditBtn.Name = "cusPayEditBtn";
-            this.cusPayEditBtn.Size = new System.Drawing.Size(100, 40);
-            this.cusPayEditBtn.TabIndex = 3;
-            this.cusPayEditBtn.Text = "EDIT";
-            this.cusPayEditBtn.UseVisualStyleBackColor = false;
-            // 
             // cusPrintBtn
             // 
             this.cusPrintBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -246,26 +230,12 @@
             this.ownAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ownAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ownAddBtn.ForeColor = System.Drawing.Color.White;
-            this.ownAddBtn.Location = new System.Drawing.Point(487, 479);
+            this.ownAddBtn.Location = new System.Drawing.Point(499, 479);
             this.ownAddBtn.Name = "ownAddBtn";
             this.ownAddBtn.Size = new System.Drawing.Size(100, 40);
             this.ownAddBtn.TabIndex = 5;
             this.ownAddBtn.Text = "ADD";
             this.ownAddBtn.UseVisualStyleBackColor = false;
-            // 
-            // ownEditBtn
-            // 
-            this.ownEditBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.ownEditBtn.FlatAppearance.BorderSize = 0;
-            this.ownEditBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ownEditBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ownEditBtn.ForeColor = System.Drawing.Color.White;
-            this.ownEditBtn.Location = new System.Drawing.Point(649, 479);
-            this.ownEditBtn.Name = "ownEditBtn";
-            this.ownEditBtn.Size = new System.Drawing.Size(100, 40);
-            this.ownEditBtn.TabIndex = 6;
-            this.ownEditBtn.Text = "EDIT";
-            this.ownEditBtn.UseVisualStyleBackColor = false;
             // 
             // ownPrintBtn
             // 
@@ -287,10 +257,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.ownPrintBtn);
-            this.Controls.Add(this.ownEditBtn);
             this.Controls.Add(this.ownAddBtn);
             this.Controls.Add(this.cusPrintBtn);
-            this.Controls.Add(this.cusPayEditBtn);
             this.Controls.Add(this.CusPayBtn);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
@@ -322,10 +290,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
         private System.Windows.Forms.Button CusPayBtn;
-        private System.Windows.Forms.Button cusPayEditBtn;
         private System.Windows.Forms.Button cusPrintBtn;
         private System.Windows.Forms.Button ownAddBtn;
-        private System.Windows.Forms.Button ownEditBtn;
         private System.Windows.Forms.Button ownPrintBtn;
     }
 }
