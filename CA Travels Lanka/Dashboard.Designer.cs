@@ -46,12 +46,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.titleLbl = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.paymentUC1 = new CA_Travels_Lanka.paymentUC();
-            this.vehiclesUC1 = new CA_Travels_Lanka.vehiclesUC();
-            this.customerUC1 = new CA_Travels_Lanka.customerUC();
-            this.reservationUC1 = new CA_Travels_Lanka.reservationUC();
-            this.packagesUC1 = new CA_Travels_Lanka.packagesUC();
-            this.homeUC1 = new CA_Travels_Lanka.homeUC();
             this.sidePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -304,67 +298,12 @@
             this.panel1.Size = new System.Drawing.Size(1200, 80);
             this.panel1.TabIndex = 1;
             // 
-            // paymentUC1
-            // 
-            this.paymentUC1.BackColor = System.Drawing.Color.White;
-            this.paymentUC1.Location = new System.Drawing.Point(240, 83);
-            this.paymentUC1.Name = "paymentUC1";
-            this.paymentUC1.Size = new System.Drawing.Size(960, 560);
-            this.paymentUC1.TabIndex = 2;
-            // 
-            // vehiclesUC1
-            // 
-            this.vehiclesUC1.BackColor = System.Drawing.Color.White;
-            this.vehiclesUC1.Location = new System.Drawing.Point(240, 83);
-            this.vehiclesUC1.Name = "vehiclesUC1";
-            this.vehiclesUC1.Size = new System.Drawing.Size(960, 560);
-            this.vehiclesUC1.TabIndex = 3;
-            // 
-            // customerUC1
-            // 
-            this.customerUC1.BackColor = System.Drawing.Color.White;
-            this.customerUC1.Location = new System.Drawing.Point(240, 83);
-            this.customerUC1.Name = "customerUC1";
-            this.customerUC1.Size = new System.Drawing.Size(960, 560);
-            this.customerUC1.TabIndex = 4;
-            // 
-            // reservationUC1
-            // 
-            this.reservationUC1.BackColor = System.Drawing.Color.White;
-            this.reservationUC1.Location = new System.Drawing.Point(240, 83);
-            this.reservationUC1.Name = "reservationUC1";
-            this.reservationUC1.Size = new System.Drawing.Size(960, 560);
-            this.reservationUC1.TabIndex = 5;
-            // 
-            // packagesUC1
-            // 
-            this.packagesUC1.BackColor = System.Drawing.Color.White;
-            this.packagesUC1.Location = new System.Drawing.Point(240, 83);
-            this.packagesUC1.Name = "packagesUC1";
-            this.packagesUC1.Size = new System.Drawing.Size(960, 560);
-            this.packagesUC1.TabIndex = 6;
-            // 
-            // homeUC1
-            // 
-            this.homeUC1.BackColor = System.Drawing.Color.White;
-            this.homeUC1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.homeUC1.Location = new System.Drawing.Point(240, 83);
-            this.homeUC1.Name = "homeUC1";
-            this.homeUC1.Size = new System.Drawing.Size(960, 560);
-            this.homeUC1.TabIndex = 7;
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1200, 640);
-            this.Controls.Add(this.homeUC1);
-            this.Controls.Add(this.packagesUC1);
-            this.Controls.Add(this.reservationUC1);
-            this.Controls.Add(this.customerUC1);
-            this.Controls.Add(this.vehiclesUC1);
-            this.Controls.Add(this.paymentUC1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.sidePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
