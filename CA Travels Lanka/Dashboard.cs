@@ -21,7 +21,15 @@ namespace CA_Travels_Lanka
 
         private void CloseBtn_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult exit = MessageBox.Show(" Do you want to close this application ? ", "Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (exit == DialogResult.Yes)
+            {
+                Application.ExitThread();
+            }
+            else
+            {
+            }
+            
         }
 
         private void ProfileBtn_Click(object sender, EventArgs e)

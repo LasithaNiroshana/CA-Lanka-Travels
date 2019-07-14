@@ -19,7 +19,14 @@ namespace CA_Travels_Lanka
 
         private void CloseBtn_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult exit = MessageBox.Show(" Do you really want to exit ? ", "Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (exit == DialogResult.Yes)
+            {
+                Application.ExitThread();
+            }
+            else
+            {
+            }
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)

@@ -64,6 +64,7 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
+            this.btnupdatepackrates = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -469,11 +470,26 @@
             this.label40.TabIndex = 0;
             this.label40.Text = "Customized";
             // 
+            // btnupdatepackrates
+            // 
+            this.btnupdatepackrates.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.btnupdatepackrates.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnupdatepackrates.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnupdatepackrates.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnupdatepackrates.ForeColor = System.Drawing.Color.White;
+            this.btnupdatepackrates.Location = new System.Drawing.Point(647, 503);
+            this.btnupdatepackrates.Name = "btnupdatepackrates";
+            this.btnupdatepackrates.Size = new System.Drawing.Size(268, 40);
+            this.btnupdatepackrates.TabIndex = 7;
+            this.btnupdatepackrates.Text = "Update Package Rates";
+            this.btnupdatepackrates.UseVisualStyleBackColor = false;
+            // 
             // packagesUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.btnupdatepackrates);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -530,5 +546,6 @@
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Button btnupdatepackrates;
     }
 }

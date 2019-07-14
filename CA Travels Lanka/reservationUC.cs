@@ -22,5 +22,10 @@ namespace CA_Travels_Lanka
             addReservation ar = new addReservation();
             ar.ShowDialog();
         }
+
+        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
